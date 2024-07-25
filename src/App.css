@@ -1,0 +1,50 @@
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #fff;
+  border: 1px solid #999;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.status {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.play-again {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.play-again:hover {
+  background-color: #45a049;
+}
